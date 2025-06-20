@@ -17,4 +17,4 @@ perl5-$(project_version)/Configure: v$(project_version).tar.gz
 	tar xzf $<
 
 v$(project_version).tar.gz:
-	curl -O https://github.com/Perl/perl5/archive/refs/tags/$@
+	curl -LO https://github.com/Perl/perl5/archive/refs/tags/$@
