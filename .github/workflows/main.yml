@@ -32,7 +32,7 @@ jobs:
       - uses: msys2/setup-msys2@v2
         with:
           install: gzip make
-          pacboy: gcc uv
+          pacboy: gcc uv make
       - name: Build
         run: |
           uv build --wheel
